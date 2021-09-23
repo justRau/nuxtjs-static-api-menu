@@ -1,7 +1,15 @@
 <template>
-  <Tutorial/>
+  <div>
+    <Menu/>
+
+    <Tutorial/>
+  </div>
 </template>
 
 <script>
-export default {}
+  import Menu from '../components/Menu';
+
+  export default {
+    components: { Menu },
+  };
 </script>
